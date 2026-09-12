@@ -13,9 +13,7 @@
 <img style="max-width: 100%; width: 400px; background-color: transparent;" src="https://github-readme-stats.vercel.app/api?username=Sharky-shark-Blue&show_icons=true&theme=tokyonight&hide_border=true" />
 </a>
 
-<img style="max-width: 100%; width: 425px; background-color: transparent;" src="https://streak-stats.demolab.com?user=Sharky-shark-Blue&layout=compact&theme=tokyonight&hide_border=true" />
-</a>
-</p>
+
 
 
 
