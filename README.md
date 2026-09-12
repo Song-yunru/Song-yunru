@@ -1,4 +1,5 @@
-## Hi there 👋
+## Hi👋,I am an axolotl who isn’t very good at programming
+I've only made some AstrBot plugins and a personal blog homepage.
 
 <!--
 **Song-yunru/Song-yunru** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
