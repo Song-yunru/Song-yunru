@@ -21,7 +21,7 @@
 
 <!-- 图片 -->
 <p align="center">
-  <img src="image/images.jpg" alt="images" style="max-width: 50%; height: auto;">
+<img width="1254" height="741" alt="Image_1789179401596_762" src="https://github.com/user-attachments/assets/5346d702-67c4-4d57-a161-e732b27d788b" />
 </p>
 <hr>
 
