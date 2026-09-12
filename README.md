@@ -1,3 +1,5 @@
+<img width="1254" height="1254" alt="Image_1789179401596_762" src="https://github.com/user-attachments/assets/4a4cd9ac-41d4-415f-b96a-7b7982e0c4da" />
+
 ## Hi👋,I am an axolotl from China 
 I am not very good at programming
 I've only made some AstrBot plugins and a personal blog homepage.
