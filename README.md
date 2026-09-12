@@ -16,8 +16,7 @@
 <tr>
 <td width="30%" align="center" valign="middle">
 
-<!-- 动画: 上下浮动 + 眨眼 + 星光闪烁 + 气泡上浮 (SVG 内置 CSS 动画, 不依赖外部服务) -->
-<img src="https://raw.githubusercontent.com/Song-yunru/Song-yunru/main/assets/axolotl-animated.svg" alt="Animated pixel axolotl" width="230">
+<img src="https://raw.githubusercontent.com/Song-yunru/Song-yunru/main/assets/sprite.png" alt="Pixel art axolotl" width="230">
 
 </td>
 <td width="70%" valign="middle">
@@ -131,7 +130,7 @@ README design notes (for future edits):
 - Assets live in assets/ and are referenced by raw.githubusercontent URL, required to render
   on the GitHub profile page.
   - assets/banner.png          GPT-generated Minecraft-style scene (static)
-  - assets/axolotl-animated.svg self-hosted animated SVG (see below)
+  - assets/sprite.png self-hosted animated SVG (see below)
 - The animated SVG is CUSTOM and SELF-HOSTED. It contains CSS animations:
     bob (float up/down), blink (eyes), twinkle (stars), rise (bubbles), sway (gills).
   Regenerate with _profile/mk_svg.js. No external service, so it never breaks.
