@@ -1,4 +1,5 @@
-## Hi👋,I am an axolotl who isn’t very good at programming
+## Hi👋,I am an axolotl from China 
+I am not very good at programming
 I've only made some AstrBot plugins and a personal blog homepage.
 
 <!--
