@@ -90,11 +90,11 @@ A personal blog homepage — a small pixel corner of the internet.
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Song-yunru&show_icons=true&hide_border=true&title_color=e0457d&icon_color=e0457d&text_color=8fb8ff&bg_color=0b1026)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Song-yunru&layout=compact&hide_border=true&title_color=e0457d&text_color=8fb8ff&bg_color=0b1026)
-
 ![Streak](https://streak-stats.demolab.com?user=Song-yunru&hide_border=true&background=0b1026&ring=e0457d&fire=f7a8c4&currStreakLabel=8fb8ff&sideLabels=8fb8ff&dates=8fb8ff)
+
+<a href="https://github.com/Song-yunru">
+  <img src="https://komarev.com/ghpvc/?username=Song-yunru&color=e0457d&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views">
+</a>
 
 </div>
 
@@ -110,8 +110,14 @@ A personal blog homepage — a small pixel corner of the internet.
 README design notes (for future edits):
 - The banner and sprite live in assets/ and are referenced by raw.githubusercontent URL,
   which is required for them to render on the GitHub profile page.
-- Stats cards use username=Song-yunru. The old template pointed at a different
-  account (Sharky-shark-Blue), which showed wrong data.
+- Stats: github-readme-stats / github-profile-summary-cards / github-readme-activity-graph
+  were REMOVED on purpose — all three live on subdomains beginning with "github"
+  (e.g. github-readme-stats.vercel.app), which are blocked on some networks and render
+  as broken images. Only services on non-github domains are used here.
+  If you re-add them, test the URL first.
+- streak-stats.demolab.com and komarev.com/ghpvc are verified working (both return SVG).
+- The old template pointed stats at username=Sharky-shark-Blue, a different account,
+  which showed wrong data. Everything here uses username=Song-yunru.
 - Colours follow the pixel palette: magenta #e0457d, pink #f7a8c4, pink-blush #ff9dbb,
   night navy #0b1026, star blue #8fb8ff, cyan #4fd6e0, amethyst #9b6fd4, grass #5fbf4a.
 -->
