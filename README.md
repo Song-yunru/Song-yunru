@@ -1,5 +1,5 @@
 <!-- Welcome -->
-<h1 align="center">Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">, I am an axolotl from China</h1>
+<h1 align="center">Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">, I'm Blue Sharky-shark</h1>
 <hr>
 
 <div align="center">
@@ -8,20 +8,30 @@
 </div>
 
 <!-- 统计 -->
-
-
-
+<p align="center"> 
+<a href="https://b23.tv/ublcWCZ">
+<img style="max-width: 100%; width: 400px; background-color: transparent;" src="https://github-readme-stats.vercel.app/api?username=Sharky-shark-Blue&show_icons=true&theme=tokyonight&hide_border=true" />
+</a>
+<a href="https://b23.tv/ublcWCZ">
+<img style="max-width: 100%; width: 425px; background-color: transparent;" src="https://streak-stats.demolab.com?user=Sharky-shark-Blue&layout=compact&theme=tokyonight&hide_border=true" />
+</a>
+</p>
 
 
 
 <!-- 图片 -->
 <p align="center">
-<img width="1254" height="741" alt="Image_1789179401596_762" src="https://github.com/user-attachments/assets/5346d702-67c4-4d57-a161-e732b27d788b" />
+  <img src="image/images.jpg" alt="images" style="max-width: 50%; height: auto;">
 </p>
 <hr>
 
 
-
+<!-- 奖杯 -->
+<div align="center">
+  <a href="https://github.com/Sharky-shark-Blue">
+    <img src="https://github-profile-trophy.vercel.app/?username=Sharky-shark-Blue&theme=flat" alt="trophy">
+  </a>
+</div>
 
 <!-- 技能 -->
 <div align="center">
