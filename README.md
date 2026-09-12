@@ -60,9 +60,9 @@ A plugin for [AstrBot](https://github.com/AstrBotDevs/AstrBot) that @-mentions c
 
 ### 🌐 Pixel Nest
 
-A personal blog homepage — a small pixel corner of the internet.
+My personal blog homepage — [**mr-song.top**](https://mr-song.top/) — a small pixel corner of the internet.
 
-[![GitHub](https://img.shields.io/badge/GitHub-Song--yunru-e0457d?style=flat-square&logo=github&logoColor=white)](https://github.com/Song-yunru)
+[![Blog](https://img.shields.io/badge/Blog-mr--song.top-e0457d?style=for-the-badge&logo=firefox&logoColor=white)](https://mr-song.top/)
 
 </div>
 
@@ -80,7 +80,7 @@ A personal blog homepage — a small pixel corner of the internet.
 ![性格](https://img.shields.io/badge/%E6%80%A7%E6%A0%BC-%E9%9D%99-ff9dbb?style=for-the-badge)
 ![爱好](https://img.shields.io/badge/%E7%88%B1%E5%A5%BD-%E4%BA%8C%E6%AC%A1%E5%85%83-9b6fd4?style=for-the-badge)
 
-<a href="https://space.bilibili.com/485368175">
+<a href="https://space.bilibili.com/516783947">
   <img src="https://img.shields.io/badge/Bilibili-%E4%B8%A8%E4%BA%91%E8%8C%B9%E4%B8%A8-4fd6e0?style=for-the-badge&logo=bilibili&logoColor=white" alt="Bilibili">
 </a>
 
@@ -120,4 +120,6 @@ README design notes (for future edits):
   which showed wrong data. Everything here uses username=Song-yunru.
 - Colours follow the pixel palette: magenta #e0457d, pink #f7a8c4, pink-blush #ff9dbb,
   night navy #0b1026, star blue #8fb8ff, cyan #4fd6e0, amethyst #9b6fd4, grass #5fbf4a.
+- Blog: https://mr-song.top/  (title: "Axolotl's Homepage")
+- Bilibili: https://space.bilibili.com/516783947
 -->
