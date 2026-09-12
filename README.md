@@ -27,12 +27,7 @@
 <hr>
 
 
-<!-- 奖杯 -->
-<div align="center">
-  <a href="https://github.com/Sharky-shark-Blue">
-    <img src="https://github-profile-trophy.vercel.app/?username=Sharky-shark-Blue&theme=flat" alt="trophy">
-  </a>
-</div>
+
 
 <!-- 技能 -->
 <div align="center">
