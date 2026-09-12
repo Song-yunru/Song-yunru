@@ -107,6 +107,22 @@ My personal blog homepage — [**mr-song.top**](https://mr-song.top/) — a smal
 
 <br>
 
+## 📊 Contributions
+
+<div align="center">
+
+<!-- 自绘贡献图: 数据取自 GitHub 贡献 API, 浅色卡片 + 像素风边框, 与主页主题统一 -->
+<img src="https://raw.githubusercontent.com/Song-yunru/Song-yunru/main/assets/contrib-graph.png" alt="Contribution graph" width="560">
+
+<br><br>
+
+<!-- 像素风装饰: 夜空星点 + 紫水晶 + 草方块/泥土 -->
+<img src="https://raw.githubusercontent.com/Song-yunru/Song-yunru/main/assets/contrib-bg.png" alt="Pixel art decoration" width="100%">
+
+</div>
+
+<br>
+
 <div align="center">
 
 ![Streak](https://streak-stats.demolab.com?user=Song-yunru&hide_border=true&background=0b1026&ring=e0457d&fire=f7a8c4&currStreakLabel=8fb8ff&sideLabels=8fb8ff&dates=8fb8ff)
@@ -129,11 +145,19 @@ My personal blog homepage — [**mr-song.top**](https://mr-song.top/) — a smal
 README design notes (for future edits):
 - Assets live in assets/ and are referenced by raw.githubusercontent URL, required to render
   on the GitHub profile page.
-  - assets/banner.png          GPT-generated Minecraft-style scene (static)
-  - assets/sprite.png self-hosted animated SVG (see below)
-- The animated SVG is CUSTOM and SELF-HOSTED. It contains CSS animations:
-    bob (float up/down), blink (eyes), twinkle (stars), rise (bubbles), sway (gills).
-  Regenerate with _profile/mk_svg.js. No external service, so it never breaks.
+  - assets/banner.png        GPT-generated Minecraft-style scene (static)
+  - assets/sprite.png        GPT-generated pixel axolotl (static, 320x320)
+  - assets/contrib-graph.png self-drawn contribution graph (light card + pixel frame)
+  - assets/contrib-bg.png    self-drawn pixel decoration band
+- The contribution graph is NOT the built-in GitHub graph (that one cannot be embedded in a
+  README) and NOT a third-party service. It is drawn locally from real contribution data:
+    node _profile/mk_contrib_graph.js   (reads _profile/contrib-data.json)
+    node _profile/mk_contrib_bg.js       (decoration band)
+  Refresh the data with:
+    curl -s "https://github-contributions-api.jogruber.de/v4/Song-yunru?y=last" -o contrib-data.json
+- An earlier CUSTOM ANIMATED SVG was removed on purpose: GitHub strips/animation-freezes
+  CSS @keyframes in externally referenced SVGs, so it rendered as a static image anyway.
+  Do not re-add unless you have verified it actually animates on the profile page.
 - Dynamic (live) content:
   - typing hero  : readme-typing-svg.demolab.com
   - stars / last-commit : shields.io (reads GitHub API live)
