@@ -42,10 +42,6 @@
   ![](https://img.shields.io/badge/爱好-二次元-crimson?style=for-the-badge)
 </div>
 
-<!-- 访客计数 -->
-<p align="center">
-  <img src="https://profile-counter.glitch.me/Sharky-shark-Blue/count.svg" alt="Visitor Count" style="max-width: 100%; height: auto;">
-</p>
 
 
 <!--
