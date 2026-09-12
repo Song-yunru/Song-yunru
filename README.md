@@ -1,5 +1,11 @@
 <div align="center">
 
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=26&duration=3200&pause=1000&color=F7A8C4&center=true&vCenter=true&width=720&height=70&lines=Hi%2C+I%27m+Axolotl+%F0%9F%A6%8E;I%27m+an+axolotl+from+China.;Made+with+pixels+and+a+bit+of+Python." alt="Typing intro">
+
+</div>
+
+<div align="center">
+
 <img src="https://raw.githubusercontent.com/Song-yunru/Song-yunru/main/assets/banner.png" alt="Minecraft pixel art banner with a pink axolotl" width="100%">
 
 </div>
@@ -8,12 +14,13 @@
 
 <table>
 <tr>
-<td width="34%" align="center" valign="middle">
+<td width="30%" align="center" valign="middle">
 
-<img src="https://raw.githubusercontent.com/Song-yunru/Song-yunru/main/assets/sprite.png" alt="Pixel art axolotl" width="260">
+<!-- 动画: 上下浮动 + 眨眼 + 星光闪烁 + 气泡上浮 (SVG 内置 CSS 动画, 不依赖外部服务) -->
+<img src="https://raw.githubusercontent.com/Song-yunru/Song-yunru/main/assets/axolotl-animated.svg" alt="Animated pixel axolotl" width="230">
 
 </td>
-<td width="66%" valign="middle">
+<td width="70%" valign="middle">
 
 ## Hi, I'm Axolotl 🦎
 
@@ -26,6 +33,17 @@ I like building small, cozy things — Minecraft-flavoured pixels, tiny bots tha
 </td>
 </tr>
 </table>
+
+<br>
+
+<!-- 实时数据徽章: 数字由 shields.io 从 GitHub 动态读取, 会自动更新 -->
+<div align="center">
+
+[![Stars](https://img.shields.io/github/stars/Song-yunru/astrbot_plugin_auto_reset?style=for-the-badge&label=STARS&color=e0457d&logo=github&logoColor=white)](https://github.com/Song-yunru/astrbot_plugin_auto_reset/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/Song-yunru/astrbot_plugin_scheduled_at?style=for-the-badge&label=LAST%20COMMIT&color=f7a8c4&logo=github&logoColor=white)](https://github.com/Song-yunru/astrbot_plugin_scheduled_at/commits)
+[![Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FSong-yunru&query=%24.public_repos&label=REPOS&color=4fd6e0&style=for-the-badge&logo=github&logoColor=white)](https://github.com/Song-yunru?tab=repositories)
+
+</div>
 
 <br>
 
@@ -72,11 +90,13 @@ My personal blog homepage — [**mr-song.top**](https://mr-song.top/) — a smal
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Code-Python-f7a8c4?style=for-the-badge&logo=python&logoColor=white)
+<!-- 技术栈图标 (动态拼图 SVG) -->
+<img src="https://skillicons.dev/icons?i=python,git,linux,github,vscode&theme=dark" alt="Tech stack">
+
+<br><br>
+
 ![Minecraft](https://img.shields.io/badge/Game-Minecraft-5fbf4a?style=for-the-badge&logo=minecraft&logoColor=white)
 ![AstrBot](https://img.shields.io/badge/Bot-AstrBot-e0457d?style=for-the-badge&logo=github&logoColor=white)
-![Bilibili](https://img.shields.io/badge/Video-Bilibili-4fd6e0?style=for-the-badge&logo=bilibili&logoColor=white)
-
 ![性格](https://img.shields.io/badge/%E6%80%A7%E6%A0%BC-%E9%9D%99-ff9dbb?style=for-the-badge)
 ![爱好](https://img.shields.io/badge/%E7%88%B1%E5%A5%BD-%E4%BA%8C%E6%AC%A1%E5%85%83-9b6fd4?style=for-the-badge)
 
@@ -108,18 +128,27 @@ My personal blog homepage — [**mr-song.top**](https://mr-song.top/) — a smal
 
 <!--
 README design notes (for future edits):
-- The banner and sprite live in assets/ and are referenced by raw.githubusercontent URL,
-  which is required for them to render on the GitHub profile page.
-- Stats: github-readme-stats / github-profile-summary-cards / github-readme-activity-graph
-  were REMOVED on purpose — all three live on subdomains beginning with "github"
-  (e.g. github-readme-stats.vercel.app), which are blocked on some networks and render
-  as broken images. Only services on non-github domains are used here.
-  If you re-add them, test the URL first.
-- streak-stats.demolab.com and komarev.com/ghpvc are verified working (both return SVG).
-- The old template pointed stats at username=Sharky-shark-Blue, a different account,
-  which showed wrong data. Everything here uses username=Song-yunru.
-- Colours follow the pixel palette: magenta #e0457d, pink #f7a8c4, pink-blush #ff9dbb,
+- Assets live in assets/ and are referenced by raw.githubusercontent URL, required to render
+  on the GitHub profile page.
+  - assets/banner.png          GPT-generated Minecraft-style scene (static)
+  - assets/axolotl-animated.svg self-hosted animated SVG (see below)
+- The animated SVG is CUSTOM and SELF-HOSTED. It contains CSS animations:
+    bob (float up/down), blink (eyes), twinkle (stars), rise (bubbles), sway (gills).
+  Regenerate with _profile/mk_svg.js. No external service, so it never breaks.
+- Dynamic (live) content:
+  - typing hero  : readme-typing-svg.demolab.com
+  - stars / last-commit : shields.io (reads GitHub API live)
+  - repos count  : shields.io dynamic/json
+  - streak       : streak-stats.demolab.com
+  - views        : komarev.com/ghpvc
+  - tech icons   : skillicons.dev
+- IMPORTANT: do NOT use services whose domain contains "github" (e.g.
+  github-readme-stats.vercel.app, github-readme-streak-stats.herokuapp.com,
+  readme-typing-svg.herokuapp.com). Those are blocked on some networks and render as
+  broken images. Verified working: *.demolab.com, img.shields.io, skillicons.dev,
+  komarev.com, raw.githubusercontent.com.
+- A "followers" badge is intentionally NOT used: the count is 0 and it looks bad.
+- Colours follow the pixel palette: magenta #e0457d, pink #f7a8c4, blush #ff9dbb,
   night navy #0b1026, star blue #8fb8ff, cyan #4fd6e0, amethyst #9b6fd4, grass #5fbf4a.
-- Blog: https://mr-song.top/  (title: "Axolotl's Homepage")
-- Bilibili: https://space.bilibili.com/516783947
+- Blog: https://mr-song.top/   Bilibili: https://space.bilibili.com/516783947
 -->
