@@ -8,10 +8,7 @@
 </div>
 
 <!-- 统计 -->
-<p align="center"> 
 
-<img style="max-width: 100%; width: 400px; background-color: transparent;" src="https://github-readme-stats.vercel.app/api?username=Sharky-shark-Blue&show_icons=true&theme=tokyonight&hide_border=true" />
-</a>
 
 
 
